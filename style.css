@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 :root {
-    --background_color: rgb(82, 38, 38);
-    --text_color: rgb(211, 243, 241);
+    --background_color: #20262A;
+    --text_color: #E2E3E3;
     ;
   }
 body{
@@ -15,9 +15,9 @@ body{
     background-color:var(--background_color) ;
     color: var(--text_color);
     opacity: 0.95;
-    -webkit-box-shadow: -2px -3px 5px 15px rgba(0,0,0,0.75);
-    -moz-box-shadow: -2px -3px 5px 15px rgba(0,0,0,0.75);
-    box-shadow: -2px -3px 5px 15px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -2px -3px 5px 15px #E2E3E3;
+    -moz-box-shadow: -2px -3px 5px 15px #E2E3E3;
+    box-shadow: -2px -3px 5px 15px #E2E3E3;
 }
 
 /*------------ Right box ------------*/
@@ -38,8 +38,25 @@ body{
 .rounded-5{
     border-radius: 30px;
 }
-
-
+.btn-primary{
+    background-color:#771A1E !important;
+    border-color: var(--text_color) !important;
+}
+.btn-primary:hover{
+    background-color:#E82228 !important;
+}
+.backgroundImage{
+    background-image: url('https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        height: 100vh; 
+}
+.forgotPassw{
+    color:#E2E3E3;
+}
+input[type=checkbox]{
+    accent-color: red !important;
+    width: 20px;
+    height: 20px;
+}
 /*------------ For small screens------------*/
 
 @media only screen and (max-width: 768px){
