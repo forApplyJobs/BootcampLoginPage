@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root {
+    --background_color: rgb(82, 38, 38);
+    --text_color: rgb(211, 243, 241);
+    ;
+  }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background: #ececec;
+}
+
+/*------------ Login container ------------*/
+
+.box-area{
+    background-color:var(--background_color) ;
+    color: var(--text_color);
+    opacity: 0.95;
+    -webkit-box-shadow: -2px -3px 5px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -3px 5px 15px rgba(0,0,0,0.75);
+    box-shadow: -2px -3px 5px 15px rgba(255, 255, 255, 0.75);
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
